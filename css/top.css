@@ -1,0 +1,442 @@
+#main {
+  background: darkblue;
+}
+#main .banner {
+  background: navy;
+}
+#main .main_area {
+  background: #111111;
+  padding: 6% 0;
+}
+#main .main_area .infor_tw{
+  background: white;
+  width: 1230px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* INFORMATION */
+#main .main_area .infor_tw .information {
+  background: yellow;
+  width: 49%;
+}
+#main .main_area .infor_tw .information .information_title_bar {
+  background: red;
+  display: flex;
+  justify-content: space-between;
+}
+#main .main_area .infor_tw .information .information_title_bar .information_title {
+  background: navy;
+  display: flex;
+  align-items: center;
+}
+#main .main_area .infor_tw .information .information_title_bar .information_more {
+  background: navy;
+  padding: 5px 14px;
+  border-radius: 8px;
+}
+#main .main_area .infor_tw .information .information_item_area {
+  background: yellowgreen;
+  margin: 30px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#main .main_area .infor_tw .information .information_item_area .information_item {
+  background: red;
+  width: 49%;
+  border: 1px gray solid;
+}
+#main .main_area .infor_tw .information .information_item_area .information_item:nth-child(-n+2) {
+  margin-bottom: 2%;
+}
+#main .main_area .infor_tw .information .information_item_area .information_item .information_img {
+  background: pink;
+}
+#main .main_area .infor_tw .information .information_item_area .information_item .information_text_area {
+  background: maroon;
+  padding: 10px;
+}
+#main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .title_day {
+  background: blue;
+  display: flex;
+  justify-content: space-between;
+}
+#main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .title_day .title {
+  background: #3c3cc1;
+  border-right: #7171f4 2px solid;
+  border-left: #7171f4 2px solid;
+  width: 30%;
+  padding: 1% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .title_day .day {
+  background: royalblue;
+}
+#main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .text {
+  background: navy;
+  padding-top: 3%;
+  font-size: 1vw;
+}
+/* Twitter */
+#main .main_area .infor_tw .twitter {
+  background: yellow;
+  width: 49%;
+}
+#main .main_area .infor_tw .twitter .twitter_title_bar {
+  background: red;
+  display: flex;
+  justify-content: space-between;
+}
+#main .main_area .infor_tw .twitter .twitter_title_bar .twitter_title {
+  background: navy;
+  display: flex;
+  align-items: center;
+}
+#main .main_area .infor_tw .twitter .twitter_title_bar .twitter_more {
+  background: navy;
+  padding: 5px 14px;
+  border-radius: 8px;
+}
+#main .main_area .infor_tw .twitter .twitter_scroll_area {
+  background: pink;
+  margin: 30px 0 0;
+  height: 605px;
+  overflow: scroll;
+  border-top: 1px gray solid;
+  border-bottom: 1px gray solid;
+}
+#main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area {
+  background: violet;
+}
+#main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .account_bar {
+  background: maroon;
+  display: flex;
+  padding-top: 5px;
+}
+#main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .account_bar .account_icon {
+  background: purple;
+  width: 45px;
+  padding-left: 5px;
+}
+#main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .account_bar .account_icon img {
+  border-radius: 100%;
+}
+#main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .account_bar .account_name{
+  background: yellow;
+  padding-left: 10px;
+}
+#main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .contents {
+  background: navy;
+  margin-left: 55px;
+}
+#main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .contents .contents_text {
+  background: blue;
+}
+#main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .contents .contents_img {
+  background: green;
+  margin: 0 0 8%;
+  border-radius: 10px;
+}
+
+/* LINE UP */
+#main .main_area .line_up {
+  width: 1230px;
+  margin: 4% auto 0;
+}
+#main .main_area .line_up .line_up_title_bar {
+}
+#main .main_area .line_up .line_up_title_bar .line_up_title {
+}
+#main .main_area .line_up .kingdom_hearts_games {
+  margin: 30px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+#main .main_area .line_up .kingdom_hearts_games .series {
+  width: 23%;
+}
+#main .main_area .line_up .kingdom_hearts_games .series .text_img {
+}
+#main .main_area .line_up .kingdom_hearts_games .series .logo_img {
+}
+#main .main_area .line_up .kingdom_hearts_games .series .btn_area {
+  display: flex;
+  justify-content: center;
+}
+#main .main_area .line_up .kingdom_hearts_games .series .btn {
+  width: 90%;
+  padding: 3px 0;
+  margin: 10% 0 6%;
+  border-radius: 8px 4px;
+  box-shadow: 2px 3px 3px -3px #fff inset, 0px -3px 3px -3px #000 inset;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#main .main_area .line_up .kingdom_hearts_games .series:nth-child(1) {
+  background: linear-gradient(to bottom, rgba(7,12,22,1) 0%,rgba(18,31,58,1) 100%);
+  border: #21355c 1px solid;
+}
+#main .main_area .line_up .kingdom_hearts_games .series:nth-child(1) .btn {
+  background: #3e5990;
+}
+#main .main_area .line_up .kingdom_hearts_games .series:nth-child(2) {
+  background: linear-gradient(to bottom, rgba(23,7,14,1) 0%,rgba(59,17,36,1) 100%);
+  border: #491f32 1px solid;
+}
+#main .main_area .line_up .kingdom_hearts_games .series:nth-child(2) .btn {
+  background: #9e2d5f;
+}
+#main .main_area .line_up .kingdom_hearts_games .series:nth-child(3) {
+  background: linear-gradient(to bottom, rgba(23,21,8,1) 0%,rgba(60,53,21,1) 100%);
+  border: #403c19 1px solid;
+}
+#main .main_area .line_up .kingdom_hearts_games .series:nth-child(3) .btn {
+  background: #90873e;
+}
+#main .main_area .line_up .kingdom_hearts_games .series:nth-child(4) {
+  background: linear-gradient(to bottom, rgba(3,18,14,1) 0%,rgba(6,45,36,1) 100%);
+  border: #113e33 1px solid;
+}
+#main .main_area .line_up .kingdom_hearts_games .series:nth-child(4) .btn {
+  background: #11785f;
+}
+
+
+@media(max-width:1270px){
+  #main {
+  }
+  #main .banner {
+  }
+  #main .main_area {
+    width: 96%;
+    margin: 0 auto;
+  }
+  #main .main_area .infor_tw{
+    width: 100%;
+  }
+  /* INFORMATION */
+  #main .main_area .infor_tw .information {
+  }
+  #main .main_area .infor_tw .information .information_title_bar {
+  }
+  #main .main_area .infor_tw .information .information_title_bar .information_title {
+    font-size: 1.4vw;
+  }
+  #main .main_area .infor_tw .information .information_title_bar .information_more {
+    font-size: 1.4vw;
+  }
+  #main .main_area .infor_tw .information .information_item_area {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item:nth-child(-n+2) {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_img {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .title_day {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .title_day .title {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .title_day .day {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .text {
+  }
+  /* Twitter */
+  #main .main_area .infor_tw .twitter {
+  }
+  #main .main_area .infor_tw .twitter .twitter_title_bar {
+  }
+  #main .main_area .infor_tw .twitter .twitter_title_bar .twitter_title {
+    font-size: 1.4vw;
+  }
+  #main .main_area .infor_tw .twitter .twitter_title_bar .twitter_more {
+    font-size: 1.4vw;
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .account_bar {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .account_bar .account_icon {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .account_bar .account_name{
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .contents {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .contents .contents_text {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .contents .contents_img {
+  }
+  /* LINE UP */
+  #main .main_area .line_up {
+    width: 100%;
+  }
+  #main .main_area .line_up .line_up_title_bar {
+  }
+  #main .main_area .line_up .line_up_title_bar .line_up_title {
+    font-size: 1.4vw;
+  }
+  #main .main_area .line_up .kingdom_hearts_games {
+  }
+  #main .main_area .line_up .kingdom_hearts_games .series {
+  }
+  #main .main_area .line_up .kingdom_hearts_games .series .text_img {
+  }
+  #main .main_area .line_up .kingdom_hearts_games .series .logo_img {
+  }
+  #main .main_area .line_up .kingdom_hearts_games .series .btn_area {
+  }
+  #main .main_area .line_up .kingdom_hearts_games .series .btn {
+  }
+}
+
+@media(max-width:650px){
+  #main {
+  }
+  #main .banner{
+  }
+  #main .main_area {
+    width: 90%;
+    padding: 20% 0;
+  }
+  #main .main_area .infor_tw{
+    flex-direction: column;
+  }
+  /* INFORMATION */
+  #main .main_area .infor_tw .information {
+    width: 100%;
+    margin: 0 0 20%;
+  }
+  #main .main_area .infor_tw .information .information_title_bar {
+  }
+  #main .main_area .infor_tw .information .information_title_bar .information_title {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #main .main_area .infor_tw .information .information_title_bar .information_more {
+    display: none;
+  }
+  #main .main_area .infor_tw .information .information_item_area {
+    flex-direction: column;
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2%;
+    border: none;
+    border-bottom: 1px gray solid;
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item:nth-child(-n+2) {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_img {
+    width: 40%;
+    padding: 0;
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area {
+    width: 60%;
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .title_day {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .title_day .title {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .title_day .day {
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .text {
+    font-size: 12px;
+  }
+  #main .main_area .infor_tw .information .information_item_area .information_item .information_text_area .none {
+    padding-top: 5px;
+  }
+  #main .main_area .infor_tw .information .last_more_area {
+    display: flex;
+    justify-content: center;
+  }
+  #main .main_area .infor_tw .information .last_more_area .last_more_btn {
+    background: #646464;
+    width: 34%;
+    padding: 2% 0;
+    border-radius: 8px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 3px -3px #fff inset, 0px -3px 1px -2px #000 inset;
+  }
+  /* Twitter */
+  #main .main_area .infor_tw .twitter {
+    width: 100%;
+    margin: 0 0 20%;
+  }
+  #main .main_area .infor_tw .twitter .twitter_title_bar {
+  }
+  #main .main_area .infor_tw .twitter .twitter_title_bar .twitter_title {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #main .main_area .infor_tw .twitter .twitter_title_bar .twitter_more {
+    display: none;
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .account_bar {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .account_bar .account_icon {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .account_bar .account_name{
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .contents {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .contents .contents_text {
+  }
+  #main .main_area .infor_tw .twitter .twitter_scroll_area .tweet_area .contents .contents_img {
+  }
+  #main .main_area .infor_tw .twitter .last_follow_area {
+    display: flex;
+    justify-content: center;
+  }
+  #main .main_area .infor_tw .twitter .last_follow_area .last_follow_btn {
+    background: #1c94e0;
+    box-shadow: 0px 3px 3px -3px #fff inset, 0px -3px 1px -2px #000 inset; 
+    width: 34%;
+    padding: 2% 0;
+    border-radius: 8px 4px;
+    display: flex;
+    justify-content: center;
+  }
+  /* LINE UP */
+  #main .main_area .line_up {
+  }
+  #main .main_area .line_up .line_up_title_bar {
+  }
+  #main .main_area .line_up .line_up_title_bar .line_up_title {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #main .main_area .line_up .kingdom_hearts_games {
+    flex-direction: column;
+  }
+  #main .main_area .line_up .kingdom_hearts_games .series {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  #main .main_area .line_up .kingdom_hearts_games .series .text_img {
+  }
+  #main .main_area .line_up .kingdom_hearts_games .series .logo_img {
+  }
+  #main .main_area .line_up .kingdom_hearts_games .series .btn_area {
+  }
+  #main .main_area .line_up .kingdom_hearts_games .series .btn {
+  }
+}

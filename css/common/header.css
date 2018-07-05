@@ -1,0 +1,90 @@
+#header {
+  background: #333333;
+}
+#header .square_enix_logo_bar {
+  background: black;
+  padding: 12px;
+  border-bottom: #888888 1px solid;
+}
+#header .square_enix_logo_bar .square_enix_logo {
+  width: 130px;
+}
+#header .item_bar {
+  width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#header .item_bar .portal_site {
+  width: 26%;
+  padding: 2% 0;
+}
+#header .item_bar .menu_area {
+  width: 44%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#header .item_bar .menu_area .text{
+  margin-bottom: 10px;
+}
+#header .item_bar .menu_area .text:first-child {
+  width: 10%;
+}
+
+@media(max-width:1270px){
+  #header {
+  }
+  #header .square_enix_logo_bar {
+  }
+  #header .square_enix_logo_bar .square_enix_logo {
+  }
+  #header .item_bar {
+    width: 96%;
+  }
+  #header .item_bar .portal_site {
+  }
+  #header .item_bar .menu_area {
+  }
+  #header .item_bar .menu_area .text{
+    font-size: 1vh;
+  }
+}
+
+@media(max-width:650px){
+  #header {
+  }
+  #header .square_enix_logo_bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  #header .square_enix_logo_bar .square_enix_logo {
+    width: 50%;
+    padding: 1% 0;
+  }
+  #header .item_bar {
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+  #header .item_bar .none img {
+    border-radius: 100%;
+    width: 60%;
+  }
+  #header .item_bar .portal_site {
+    width: 75%;
+    padding: 5% 0;
+  }
+  #header .item_bar .none {
+    background: #333333;
+    display: block;
+    width: 20%;
+  }
+  #header .item_bar .menu_area {
+    display: none;
+  }
+  #header .item_bar .menu_area .text{
+  }
+}
+

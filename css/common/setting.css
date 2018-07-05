@@ -1,0 +1,42 @@
+body {
+  color: #fff;
+}
+.none {
+  display: none;
+}
+img{
+  width: 100%;
+  display: block;
+}
+
+/* font */
+.bold{
+  font-weight: bold;
+}
+.font_11{
+  font-size: 11px;
+}
+.font_12{
+  font-size: 12px;
+}
+.font_15{
+  font-size: 15px;
+}
+.font_20{
+  font-size: 20px;
+}
+.font_22{
+  font-size: 22px;
+}
+.font_40{
+  font-size: 40px;
+}
+
+@media(max-width:650px){
+  .responsive_none {
+    display: none;
+  }
+  .none {
+    display: block;
+  }
+}

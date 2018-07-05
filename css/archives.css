@@ -1,0 +1,118 @@
+#main {
+  background: #111111;
+}
+#main .archives_bar {
+  background-image: url('http://www.square-enix.co.jp/kingdom/uc/images/wallpaper/01/01_Ar_1920_1200.jpg');
+  background-size: cover;
+}
+#main .archives_bar .archives_text {
+  width: 1230px;
+  padding: 1% 0;
+  margin: 0 auto;
+}
+#main .main_area {
+  width: 1230px;
+  margin: 0 auto;
+  padding: 3% 0 8%;
+}
+#main .main_area .notes_bar {
+  padding-bottom: 2%;
+}
+#main .main_area .notes_bar .notes {
+}
+#main .main_area .series_area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#main .main_area .series_area .series {
+  width: 19%;
+}
+#main .main_area .series_area .series:nth-child(-n+5) {
+  margin-bottom: 1%;
+}
+#main .main_area .series_area .series .img_picture_area{
+  margin-bottom: 5%;
+}
+#main .main_area .series_area .series .img_playstation_area{
+  margin-bottom: 5%;
+  border: 1px solid #5c5c5c;
+}
+#main .main_area .series_area .series .text_area {
+}
+#main .main_area .series_area .series .text_area .text_title {
+}
+#main .main_area .series_area .series .text_area .text_day {
+  color: #868686;
+  padding-top: 2%;
+}
+
+@media(max-width:1270px){
+  #main {
+  }
+  #main .archives_bar {
+  }
+  #main .archives_bar .archives_text {
+    width: 100%;
+  }
+  #main .main_area {
+    width: 96%;
+  }
+  #main .main_area .notes_bar {
+  }
+  #main .main_area .notes_bar .notes {
+  }
+  #main .main_area .series_area {
+  }
+  #main .main_area .series_area .series {
+  }
+  #main .main_area .series_area .series:nth-child(-n+5) {
+  }
+  #main .main_area .series_area .series .img_picture_area{
+  }
+  #main .main_area .series_area .series .img_playstation_area{
+  }
+  #main .main_area .series_area .series .text_area {
+  }
+  #main .main_area .series_area .series .text_area .text_title {
+    font-size: 1.4vw;
+  }
+  #main .main_area .series_area .series .text_area .text_day {
+  }
+}
+
+@media(max-width:650px){
+  #main {
+  }
+  #main .archives_bar {
+  }
+  #main .archives_bar .archives_text {
+  }
+  #main .main_area {
+    width: 92%;
+  }
+  #main .main_area .notes_bar {
+  }
+  #main .main_area .notes_bar .notes {
+  }
+  #main .main_area .series_area {
+  }
+  #main .main_area .series_area .series {
+    width: 48%;
+  }
+  #main .main_area .series_area .series:nth-child(-n+8) {
+    margin-bottom: 4%;
+  }
+  #main .main_area .series_area .series .img_picture_area{
+  }
+  #main .main_area .series_area .series .img_playstation_area{
+  }
+  #main .main_area .series_area .series .text_area {
+  }
+  #main .main_area .series_area .series .text_area .text_title {
+    font-size: 3.4vw;
+  }
+  #main .main_area .series_area .series .text_area .text_day {
+  }
+}
+

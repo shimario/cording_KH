@@ -1,0 +1,210 @@
+#main {
+  background: #111111;
+}
+#main .information_bar {
+  background-image: url('http://www.square-enix.co.jp/kingdom/uc/images/wallpaper/01/01_Ar_1920_1200.jpg');
+  background-size: cover;
+}
+#main .information_bar .information_text {
+  width: 1230px;
+  padding: 1% 3%;
+  margin: 0 auto;
+}
+#main .main_area {
+  width: 1230px;
+  padding: 5% 0 10%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#main .main_area .category_area {
+  width: 15%;
+}
+#main .main_area .category_area .category_bar {
+}
+#main .main_area .category_area .category_item_area {
+  padding: 18% 0 0;
+}
+#main .main_area .category_area .category_item_area .category_item {
+}
+#main .main_area .category_area .category_item:not(:last-child) {
+  margin-bottom: 20%;
+}
+#main .main_area .all_area {
+  width: 74%;
+}
+#main .main_area .all_area .all_bar {
+}
+#main .main_area .all_area .all_item_area {
+  padding: 4% 0 0;
+  margin-bottom: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#main .main_area .all_area .all_item_area .all_item {
+  width: 32%;
+  border: 1px gray solid;
+}
+#main .main_area .all_area .all_item_area .all_item:nth-child(-n+3) {
+  margin-bottom: 2%;
+}
+#main .main_area .all_area .all_item_area .all_item .all_item_img {
+}
+#main .main_area .all_area .all_item_area .all_item .all_item_text_area {
+  padding: 10px;
+}
+#main .main_area .all_area .all_item_area .all_item .all_item_text_area .title_day {
+  display: flex;
+  justify-content: space-between;
+}
+#main .main_area .all_area .all_item_area .all_item .all_item_text_area .title_day .title {
+  background: #3c3cc1;
+  border-right: #7171f4 2px solid;
+  border-left: #7171f4 2px solid;
+  width: 30%;
+  padding: 1% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main .main_area .all_area .all_item_area .all_item .all_item_text_area .title_day .day {
+}
+#main .main_area .all_area .all_item_area .all_item .all_item_text_area .text {
+  font-size: 1vw;
+  padding-top: 20px;
+}
+#main .main_area .all_area .more_img_area {
+  display: flex;
+  justify-content: center;
+}
+#main .main_area .all_area .more_img_area .more_img_btn {
+  width: 5%;
+  padding: 3% 0;
+}
+
+
+@media(max-width:1270px){
+  #main {
+  }
+  #main .information_bar {
+  }
+  #main .information_bar .information_text {
+    width: 100%;
+  }
+  #main .main_area {
+    width: 94%;
+  }
+  #main .main_area .category_area {
+  }
+  #main .main_area .category_area .category_bar {
+  }
+  #main .main_area .category_area .category_item_area {
+    font-size: 1.4vw;
+  }
+  #main .main_area .category_area .category_item_area .category_item {
+  }
+  #main .main_area .category_area .category_item:not(:last-child) {
+  }
+  #main .main_area .all_area {
+  }
+  #main .main_area .all_area .all_bar {
+  }
+  #main .main_area .all_area .all_item_area {
+  }
+  #main .main_area .all_area .all_item_area .all_item {
+  }
+  #main .main_area .all_area .all_item_area .all_item:nth-child(-n+3) {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_img {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area .title_day {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area .title_day .title {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area .title_day .day {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area .text {
+  }
+  #main .main_area .all_area .more_img_area {
+  }
+  #main .main_area .all_area .more_img_area .more_img_btn {
+  }
+}
+
+@media(max-width:650px){
+  #main {
+  }
+  #main .information_bar {
+  }
+  #main .information_bar .information_text {
+    padding: 1% 0 1% 4%;
+  }
+  #main .main_area {
+    width: 92%;
+    flex-direction: column;
+  }
+  #main .main_area .category_area {
+    width: 100%;
+  }
+  #main .main_area .category_area .category_bar {
+  }
+  #main .main_area .category_area .category_item_area {
+    padding: 5% 0 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #main .main_area .category_area .category_item_area .category_item {
+    width: 22.4%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border: 1px gray solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+    font-size: 3vw;
+  }
+  #main .main_area .category_area .category_item_area .category_item:first-child {
+    background: #696969;
+  }
+  #main .main_area .category_area .category_item:not(:last-child) {
+  }
+  #main .main_area .all_area {
+    width: 100%;
+  }
+  #main .main_area .all_area .all_bar {
+  }
+  #main .main_area .all_area .all_item_area {
+  }
+  #main .main_area .all_area .all_item_area .all_item {
+    width: 48%;
+  }
+  #main .main_area .all_area .all_item_area .all_item:nth-child(-n+4) {
+    margin-bottom: 3%;
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_img {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area .title_day {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area .title_day .title {
+    width: 60%;
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area .title_day .day {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area .text {
+  }
+  #main .main_area .all_area .all_item_area .all_item .all_item_text_area .none {
+    padding-top: 5px;
+  }
+  #main .main_area .all_area .more_img_area {
+  }
+  #main .main_area .all_area .more_img_area .more_img_btn {
+    width: 12%;
+  }
+}
